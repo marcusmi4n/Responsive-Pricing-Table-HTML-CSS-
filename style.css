@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background: #f7f7f7;
+  padding: 40px;
+}
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.plan {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.featured {
+  border: 2px solid orange;
+}
+.plan ul {
+  list-style: none;
+  padding: 0;
+}
+.plan button {
+  background: orange;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
